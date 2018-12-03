@@ -122,8 +122,8 @@
   <keywords>google,maps,geo</keywords>
 
   <engines>
-    <engine name="cordova-android" version=">=5.1.0" />
-    <engine name="cordova-ios" version=">=4.0.0" />
+    <engine name="cordova-android" version=">=7.0.0" />
+    <engine name="cordova-ios" version=">=4.5.4" />
     <engine name="apple-xcode" version=">=9.0.0" />
     <engine name="apple-ios" version=">=10.0.0" />
   </engines>
@@ -257,7 +257,7 @@
     <resource-file src="src/android/res/drawable/dummy_mylocation_button_shadow.xml" target="res/drawable/dummy_mylocation_button_shadow.xml"/>
 
     <!-- Minimum required version of Google Play Services SDK for this plugin is 12.0.1. You need to specify this version number for all other plugins that use google play services sdk. https://developers.google.com/android/guides/releases -->
-    <preference name="PLAY_SERVICES_VERSION" default="15.0.1"/>
+    <preference name="PLAY_SERVICES_VERSION" default="11.6.2"/>
     <framework src="com.google.android.gms:play-services-maps:$PLAY_SERVICES_VERSION"/>
     <framework src="com.google.android.gms:play-services-location:$PLAY_SERVICES_VERSION"/>
 
